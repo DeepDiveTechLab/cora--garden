@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Coral Garden - Cake pops temáticos inspirados en la naturaleza y el océano">
+    <title>Coral Garden | El jardín donde el océano se vuelve dulce</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <span class="logo-icon">🌊</span>
+                    <span class="logo-text">Coral Garden</span>
+                </div>
+                <button class="menu-toggle" aria-label="Abrir menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#colecciones">Colecciones</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto" class="btn-nav">Ordenar</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-background">
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+            <div class="wave wave3"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-subtitle">✨ Bienvenido a</p>
+                    <h1 class="hero-title">
+                        <span class="title-line">Coral</span>
+                        <span class="title-line">Garden</span>
+                    </h1>
+                    <p class="hero-description">
+                        El jardín donde el océano se vuelve dulce. Cake pops temáticos inspirados en la naturaleza y el mar.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#colecciones" class="btn btn-primary">Ver Colecciones</a>
+                        <a href="#productos" class="btn btn-secondary">Nuestros Productos</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-cake-pop">
+                        <div class="cake-pop-circle"></div>
+                        <div class="cake-pop-circle"></div>
+                        <div class="cake-pop-circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Colecciones -->
+    <section id="colecciones" class="collections">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestras Colecciones</h2>
+                <p class="section-subtitle">Dos mundos, una experiencia dulce</p>
+            </div>
+            
+            <div class="collections-grid">
+                <!-- Colección Naturaleza -->
+                <div class="collection-card nature">
+                    <div class="collection-icon">🌿</div>
+                    <h3 class="collection-title">Naturaleza</h3>
+                    <p class="collection-description">
+                        Inspirados en la belleza del bosque y los jardines
+                    </p>
+                    <ul class="collection-items">
+                        <li>
+                            <span class="item-name">Strawberry Bloom</span>
+                            <span class="item-desc">Fresa con estilo floral</span>
+                        </li>
+                        <li>
+                            <span class="item-name">Lemon Garden</span>
+                            <span class="item-desc">Limón fresco inspirado en la naturaleza</span>
+                        </li>
+                        <li>
+                            <span class="item-name">Choco Forest</span>
+                            <span class="item-desc">Chocolate inspirado en el bosque</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Colección Océano -->
+                <div class="collection-card ocean">
+                    <div class="collection-icon">🌊</div>
+                    <h3 class="collection-title">Océano</h3>
+                    <p class="collection-description">
+                        Inspirados en las olas y la magia del mar
+                    </p>
+                    <ul class="collection-items">
+                        <li>
+                            <span class="item-name">Coconut Wave</span>
+                            <span class="item-desc">Coco inspirado en las olas del mar</span>
+                        </li>
+                        <li>
+                            <span class="item-name">Vanilla Pearl</span>
+                            <span class="item-desc">Vainilla elegante inspirada en perlas</span>
+                        </li>
+                        <li>
+                            <span class="item-name">Caramel Tide</span>
+                            <span class="item-desc">Caramelo inspirado en las mareas</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Productos Destacados -->
+    <section id="productos" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Productos Destacados</h2>
+                <p class="section-subtitle">Perfectos para compartir en redes sociales</p>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card" data-collection="naturaleza">
+                    <div class="product-image" style="background: linear-gradient(135deg, #ff6b9d 0%, #ffa5c9 100%);">
+                        <div class="product-badge">Naturaleza</div>
+                        <div class="product-icon">🍓</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Strawberry Bloom</h3>
+                        <p class="product-description">Fresa con estilo floral</p>
+                        <div class="product-footer">
+                            <span class="product-price">$30 MXN</span>
+                            <button class="btn-add">Ordenar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-collection="oceano">
+                    <div class="product-image" style="background: linear-gradient(135deg, #4ecdc4 0%, #7fd8d1 100%);">
+                        <div class="product-badge">Océano</div>
+                        <div class="product-icon">🥥</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Coconut Wave</h3>
+                        <p class="product-description">Coco inspirado en las olas del mar</p>
+                        <div class="product-footer">
+                            <span class="product-price">$30 MXN</span>
+                            <button class="btn-add">Ordenar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-collection="naturaleza">
+                    <div class="product-image" style="background: linear-gradient(135deg, #ffd93d 0%, #ffe66d 100%);">
+                        <div class="product-badge">Naturaleza</div>
+                        <div class="product-icon">🍋</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Lemon Garden</h3>
+                        <p class="product-description">Limón fresco inspirado en la naturaleza</p>
+                        <div class="product-footer">
+                            <span class="product-price">$30 MXN</span>
+                            <button class="btn-add">Ordenar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-collection="oceano">
+                    <div class="product-image" style="background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);">
+                        <div class="product-badge">Océano</div>
+                        <div class="product-icon">🤍</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Vanilla Pearl</h3>
+                        <p class="product-description">Vainilla elegante inspirada en perlas</p>
+                        <div class="product-footer">
+                            <span class="product-price">$30 MXN</span>
+                            <button class="btn-add">Ordenar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-collection="naturaleza">
+                    <div class="product-image" style="background: linear-gradient(135deg, #6b4423 0%, #8b5a3c 100%);">
+                        <div class="product-badge">Naturaleza</div>
+                        <div class="product-icon">🍫</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Choco Forest</h3>
+                        <p class="product-description">Chocolate inspirado en el bosque</p>
+                        <div class="product-footer">
+                            <span class="product-price">$30 MXN</span>
+                            <button class="btn-add">Ordenar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-collection="oceano">
+                    <div class="product-image" style="background: linear-gradient(135deg, #d4a574 0%, #e6c197 100%);">
+                        <div class="product-badge">Océano</div>
+                        <div class="product-icon">🍯</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Caramel Tide</h3>
+                        <p class="product-description">Caramelo inspirado en las mareas</p>
+                        <div class="product-footer">
+                            <span class="product-price">$30 MXN</span>
+                            <button class="btn-add">Ordenar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section id="nosotros" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">¿Por qué Coral Garden?</h2>
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon">📸</div>
+                            <h3>Instagrammable</h3>
+                            <p>Diseños únicos perfectos para compartir en redes sociales</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">💰</div>
+                            <h3>Accesible</h3>
+                            <p>Precio justo para estudiantes desde $30 MXN</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🎨</div>
+                            <h3>Creativo</h3>
+                            <p>Productos originales inspirados en la naturaleza y el océano</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🌟</div>
+                            <h3>Exclusivo</h3>
+                            <p>Una experiencia dulce que va más allá de un simple postre</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="stats-card">
+                        <div class="stat">
+                            <span class="stat-number">6</span>
+                            <span class="stat-label">Sabores únicos</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">2</span>
+                            <span class="stat-label">Colecciones</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Artesanal</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contacto" class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">¿Listo para probar algo diferente?</h2>
+                <p class="cta-description">
+                    Síguenos en redes sociales y descubre nuestras nuevas creaciones
+                </p>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <span class="social-icon">📷</span>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="#" class="social-link" aria-label="TikTok">
+                        <span class="social-icon">🎵</span>
+                        <span>TikTok</span>
+                    </a>
+                </div>
+                <a href="#" class="btn btn-primary btn-large">Ordenar Ahora</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Coral Garden</h3>
+                    <p class="footer-description">
+                        El jardín donde el océano se vuelve dulce
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Colecciones</h4>
+                    <ul class="footer-links">
+                        <li><a href="#colecciones">Naturaleza</a></li>
+                        <li><a href="#colecciones">Océano</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Síguenos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">TikTok</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Coral Garden. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
